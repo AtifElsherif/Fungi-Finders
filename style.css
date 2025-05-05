@@ -292,12 +292,19 @@
         top: 0;
         border-radius: 0 0 0 var(--border-radius-2);
         z-index: 10;
+        display: none;
 
         li + li {
           padding-top: 1.5rem;
           margin-top: 1.5rem;
           border-top: 2px solid var(--background-accent-light);
         }
+      
+
+    }
+
+    [aria-expanded="true"] ~ #navigation-menu {
+      display: block;
     }
   }
   .hero {
