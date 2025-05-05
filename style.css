@@ -270,7 +270,7 @@
       background: transparent;
       border: none;
 
-      img{
+      img {
         border-radius: 0;
       }
     }
@@ -299,12 +299,11 @@
           margin-top: 1.5rem;
           border-top: 2px solid var(--background-accent-light);
         }
-      
+      }
 
-    }
-
-    [aria-expanded="true"] ~ #navigation-menu {
-      display: block;
+      [aria-expanded="true"] ~ #navigation-menu {
+        display: block;
+      }
     }
   }
   .hero {
@@ -366,6 +365,7 @@
     font-size: var(--font-size-lg);
   }
 }
+
 @layer utilities {
   .visually-hidden {
     clip: rect(0 0 0 0);
